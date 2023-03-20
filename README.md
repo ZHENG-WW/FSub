@@ -4,7 +4,7 @@ four categories (relevant features, interaction features, redundant features, an
 in order to accommodate both the requirement for <br>
 minimal-optimal features and the requirement for all relevant features simultaneously.
 
-#implementation
+#implementation <br>
 source("fsub.R") <br>
 mci.res = mci("target", train_set) <br>
 #the output of FSub_s <br>

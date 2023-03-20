@@ -6,7 +6,7 @@ minimal-optimal features and the requirement for all relevant features simultane
 
 #implementation <br>
 source("fsub.R") <br>
-mci.res = mci("target", train_set) <br>
+mci.res = mci("target", train_set) #"target" is the label of target variable<br>
 #the output of FSub_s <br>
 mci.res$summary$mean <br>
 
